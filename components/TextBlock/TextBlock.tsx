@@ -1,7 +1,7 @@
 import Box from "../Box/Box"
 import Typography from "../Typograph/Typography"
 
-
+// recebe um title, um tipo para o estilo do box
 export type TextBlockProps = {
     title?: string
     type?: "primary" | "secondary" | "dark"
@@ -10,6 +10,7 @@ export type TextBlockProps = {
 
  
 const TextBlock = ({ title, type = "primary", children, className, ...rest }: TextBlockProps) => {
+    // Verifica o type e então muda a cor do texto
     const textClass = type === "primary" ? "text-white" : "text-gray-primary"
     return (
         <Box className="flex gap-1 p-5" rounded {...rest} type={type}>

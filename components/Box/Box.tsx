@@ -8,6 +8,7 @@ export type BoxProps = {
     children: React.ReactNode
 } & React.HTMLAttributes<HTMLElement>;
 
+// type padronizará o background e a cor do texto no componente Box
 const boxClassMap = {
     primary: "bg-primary",
     secondary: "bg-tertiary",
