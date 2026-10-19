@@ -11,11 +11,11 @@ export type BoxProps = {
 // type padronizará o background e a cor do texto no componente Box
 const boxClassMap = {
     primary: "bg-primary",
-    secondary: "bg-tertiary",
+    secondary: "bg-gray-100",
     dark: "bg-dark",
     alert: "bg-yellow-100 text-yellow-100",
     success: "bg-green-100 text-green-100",
-    error: "bg-error-100 text-error-100",  
+    error: "bg-red-200 text-error-100",  
 }   
 
 const Box = ({ children, rounded = false, filledBackground = false, border = false, type = "primary", className, ...rest }: BoxProps) => {
@@ -29,7 +29,7 @@ const Box = ({ children, rounded = false, filledBackground = false, border = fal
     })
 
     return (
-        <div className={classes} {...rest}>
+        <div className={classNames(classes, className)} {...rest}>
             {children}
         </div>
     )

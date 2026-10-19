@@ -1,6 +1,7 @@
 export type ButtonProps = {
   children: React.ReactNode;
   variant?: 'primary' | 'secondary' | 'tertiary';
+  
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 function getVariant(variant: ButtonProps['variant'], disabled: ButtonProps['disabled']) {
