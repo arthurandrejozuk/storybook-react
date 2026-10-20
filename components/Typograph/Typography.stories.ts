@@ -21,3 +21,35 @@ export const Primary: StoryObj<TypographyProps> = {
         children: "Args"
     }
 }
+export const TextHeading1: StoryObj<TypographyProps> = {
+    args: {
+        children: "Texto",
+        element: "h1",
+        size: "title1",
+        className: "font-extrabold"
+    }
+}
+export const TextHeading2: StoryObj<TypographyProps> = {
+    args: {
+        children: "Texto",
+        element: "h2",
+        size: "title2",
+        className: "font-extrabold"
+    }
+}
+export const TextHeading3: StoryObj<TypographyProps> = {
+    args: {
+        children: "Texto",
+        element: "h3",
+        size: "title3",
+        className: "font-extrabold"
+    }
+}
+export const TextParagraph: StoryObj<TypographyProps> = {
+    args: {
+        children: "Texto",
+        element: "p",
+        size: "md",
+        className: "text-primary"
+    }
+}
