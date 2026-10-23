@@ -9,7 +9,7 @@ const meta: Meta<BoxProps> = {
     component: Box,
     argTypes: {
         children: { type: "string" },
-        type: { type: "string" },
+        type: { type: "string", options: ["alert", "primary", "secondary", "dark", "success", "error"], control: { type: "select" } },
         rounded: { type: "boolean" },
         border: { type: "boolean" },
         filledBackground: { type: "boolean" },
