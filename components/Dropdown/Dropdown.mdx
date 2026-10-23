@@ -1,0 +1,25 @@
+import { Canvas, Meta, Primary, Controls } from "@storybook/blocks";
+
+import * as DropdownStories from "./Dropdown.stories";
+
+
+{/* Documentando componente Dropdown */}
+
+<Meta of={DropdownStories} />
+
+# Dropdown
+
+<p>Dropdown é um elemento interativo clicável que envolve uma ação de alternância.</p>
+
+### Primary
+
+<Canvas of={DropdownStories.Primary} layout="centered" />
+
+### Secondary
+
+<Canvas of={DropdownStories.Secondary} layout="centered" />
+
+## Documentação Interativa
+
+<Primary />
+<Controls />
