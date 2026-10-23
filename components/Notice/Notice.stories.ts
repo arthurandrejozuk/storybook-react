@@ -7,7 +7,7 @@ import { StoryObj, Meta } from '@storybook/react';
 
 
 const meta: Meta<NoticeProps> = {
-    title: "Atoms/Notice",
+    title: "Design System/Atoms/Notice",
     component: Notice,
     argTypes: {
         type: { type: "string" },

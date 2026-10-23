@@ -38,7 +38,7 @@ const ModalStoryInfo = (args: ModalProps) => {
 
 //
 const meta: Meta<ModalProps> = {
-    title: "Atoms/Modal",
+    title: "Design System/Atoms/Modal",
     component: Modal,
   decorators: [
     // decorators permitem cercar o componente Story com outra tag

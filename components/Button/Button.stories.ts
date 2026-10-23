@@ -21,7 +21,7 @@ const meta: Meta<ButtonProps> = {
   }
 }
 
-export default meta
+export default meta;
 
 export const Primary: StoryObj<ButtonProps> = {
   args: {
