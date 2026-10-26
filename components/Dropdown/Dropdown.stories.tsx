@@ -5,7 +5,7 @@ import Dropdown from "./Dropdown"
  
 
 const meta: Meta<typeof Dropdown> = {
-    title: "Molecules/Dropdown",
+    title: "Design System/Molecules/Dropdown",
     component: Dropdown,
     decorators: [
     // decorator para adicionar Paddings 
