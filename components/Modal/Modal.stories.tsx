@@ -4,7 +4,7 @@ import Modal, { ModalProps } from "./Modal";
 
 import { StoryObj, Meta } from "@storybook/react";
 import Button from "../Button/Button";
-import Typography from "../Typograph/Typography";
+import Typography from "../Typography/Typography";
 
 
 // Criando um componente Modal para representar no storybook

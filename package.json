@@ -1,7 +1,24 @@
 {
-  "name": "alfabit-design-system",
+  "name": "alfabit-art",
   "version": "0.1.0",
   "private": true,
+  "description": "![3172 - React: Evolua seu Design System com Tailwind](thumb.png)",
+  "keywords": [
+    "alfabit"
+  ],
+  "homepage": "https://github.com/arthurandrejozuk/storybook-react#readme",
+  "bugs": {
+    "url": "https://github.com/arthurandrejozuk/storybook-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurandrejozuk/storybook-react.git"
+  },
+  "license": "ISC",
+  "author": "alfabit",
+  "type": "commonjs",
+  "main": "components/index.ts",
+  "files":["styles/globals.css", "tailwind.config.js","components/*","fonts/*"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

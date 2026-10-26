@@ -1,5 +1,5 @@
 import Box from "../Box/Box"
-import Typography from "../Typograph/Typography"
+import Typography from "../Typography/Typography"
 
 // recebe um title, um tipo para o estilo do box
 export type TextBlockProps = {

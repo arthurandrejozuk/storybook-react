@@ -4,7 +4,7 @@ import {
     ExclamationCircleIcon,
     XMarkIcon,
 } from "@heroicons/react/24/outline";
-import Typography from "../Typograph/Typography";
+import Typography from "../Typography/Typography";
 import Button from "../Button/Button";
 
 export type NoticeProps = {

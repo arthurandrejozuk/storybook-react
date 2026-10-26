@@ -1,0 +1,33 @@
+
+> alfabit-design-system@0.1.0 build-storybook
+> storybook build --output-dir=C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H --webpack-stats-json=C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H
+
+@storybook/cli v7.0.12
+
+info => Cleaning outputDir: C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H
+info => Loading presets
+info => Building manager..
+info => Manager built (252 ms)
+info => Compiling preview..
+info => Copying static files: D:\Projetos\3172-alfabit-design-system-main\node_modules\@storybook\manager\static at C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H\sb-common-assets
+WARN You (or an addon) are using the 'config' preset field. This has been replaced by 'previewAnnotations' and will be removed in 8.0
+info Addon-docs: using MDX2
+info => Using implicit CSS loaders
+info => Using default Webpack5 setup
+info => Copying static files: D:\Projetos\3172-alfabit-design-system-main\public at C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H\
+info => Preview built (18 s)
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   463.eb7e3a37.iframe.bundle.js (583 KiB)
+WARN   764.39226866.iframe.bundle.js (657 KiB)
+WARN   128.b73914dd.iframe.bundle.js (995 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (1.03 MiB)
+WARN       runtime~main.6724dd38.iframe.bundle.js
+WARN       128.b73914dd.iframe.bundle.js
+WARN       main.bf412cf7.iframe.bundle.js
+WARN 
+info => preview stats written to C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H\preview-stats.json
+info => Output directory: C:\Users\arthu\AppData\Local\Temp\chromatic--37284-bldAlVtTvd5H
