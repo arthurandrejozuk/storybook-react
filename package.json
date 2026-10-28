@@ -1,7 +1,7 @@
 {
   "name": "alfabit-art",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "![3172 - React: Evolua seu Design System com Tailwind](thumb.png)",
   "keywords": [
     "alfabit"

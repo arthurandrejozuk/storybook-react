@@ -21,3 +21,5 @@ export { default as TextBlock } from "./TextBlock/TextBlock";
 export { type TextBlockProps } from "./TextBlock/TextBlock";
 export { default as Typography } from "./Typography/Typography";
 export { type TypographyProps } from "./Typography/Typography";
+export { default as Button } from "./Button/Button";
+export { type ButtonProps } from "./Button/Button";
