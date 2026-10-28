@@ -1,6 +1,6 @@
 {
   "name": "alfabit-art",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "![3172 - React: Evolua seu Design System com Tailwind](thumb.png)",
   "keywords": [
@@ -17,22 +17,26 @@
   "license": "ISC",
   "author": "alfabit",
   "type": "commonjs",
-  "main": "components/index.ts",
-  "files":["styles/globals.css", "tailwind.config.js","components/*","fonts/*"],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files":["dist",
+    "styles/globals.css",
+    "tailwind.config.js",
+    "fonts/*"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build:lib": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.10",
     "@heroicons/react": "^2.2.0",
     "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
+   
     "autoprefixer": "10.4.14",
     "chromatic": "^18.13.3",
     "class-variance-authority": "^0.7.1",
@@ -41,12 +45,16 @@
     "eslint-config-next": "13.4.3",
     "next": "13.4.2",
     "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   },
+   "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
   "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@storybook/addon-essentials": "^7.0.12",
     "@storybook/addon-interactions": "^7.0.12",
     "@storybook/addon-links": "^7.0.12",

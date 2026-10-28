@@ -1,5 +1,5 @@
 import { cva, type VariantProps } from "class-variance-authority";
-
+import type { JSX } from "react";
 // Criando um CVA     // Permite colocar informações padrões
 const textVariants = cva("text-gray-primary text-sm font-normal", {
   // variants são opções do componente
